@@ -20,10 +20,12 @@ The most challenging part of the project was building a robust detector for lane
 Picking the correct parameters to sort through lines that are computed from hough transformation can also get tricky because the car lanes are not perfectly straight and can vary depending on where the car is relative to them. The hough transofmration paramters needed to be tuned properly to detect the lanes. I used thresholding and averaging to construct the prediction of where the lanes exist.
 
 **Input**
+--
 <img src="solidWhiteCurve.jpg" width="480" alt="Combined Image" />
 <img src="solidYellowCurve.jpg" width="480" alt="Combined Image" />
 
 **Output**
+--
 <img src="solidWhiteCurve_detected.jpg" width="480" alt="Combined Image" />
 <img src="solidYellowCurve_detected.jpg" width="480" alt="Combined Image" />
 
