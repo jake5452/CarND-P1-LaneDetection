@@ -33,5 +33,6 @@ Picking the correct parameters to sort through lines that are computed from houg
 --
 1. The car lanes are not technically always straight. Bezier curve may be used to more accurately model the shape of the detected lanes based on the output of Hough transform.
 
-2. The lane predction can get quite erratic over time because of the movement of the car. The movement of the car equates to variation in lighting and projected angle of the line in the camera view. This can introduces artefacts that lead to uncertanties in the prediction. This can be mitigated by leveraging the fact that in between two consecutive frames, there should not be much change in the trend of the lanes. Moving average smoothing may be applied to then reduce the sensitivity of the model to reduce the motion artefacts.
+2. The lane predction can get quite erratic over time because of the movement of the car. The movement of the car equates to variation in lighting and projected angle of the line in the camera view. This can introduces 
+that lead to inaccuracies in the prediction. This can be mitigated by leveraging the fact that in between two consecutive frames, there should not be much change in the trend of the lanes. Moving average smoothing may be applied to then reduce the sensitivity of the model to reduce the motion artifacts.
 
