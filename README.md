@@ -21,13 +21,13 @@ Picking the correct parameters to sort through lines that are computed from houg
 
 **Input**
 --
-<img src="solidWhiteCurve.jpg" width="480" alt="Combined Image" />
-<img src="solidYellowCurve.jpg" width="480" alt="Combined Image" />
+<img src="solidWhiteCurve.jpg" width="480" alt="Input Image 1" />
+<img src="solidYellowCurve.jpg" width="480" alt="Input Image 2" />
 
 **Output**
 --
-<img src="solidWhiteCurve_detected.jpg" width="480" alt="Combined Image" />
-<img src="solidYellowCurve_detected.jpg" width="480" alt="Combined Image" />
+<img src="solidWhiteCurve_detected.jpg" width="480" alt="Output Image 1" />
+<img src="solidYellowCurve_detected.jpg" width="480" alt="Output Image 2" />
 
 **Possible Improvements**
 --
